@@ -1,0 +1,52 @@
+@import "libs";
+@import "fonts";
+@import "vars";
+
+*{
+  box-sizing: border-box;
+  &::before, &::after{
+    box-sizing: border-box;
+  }
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: $default-font;
+  overflow-x: hidden;
+  color: $text;
+  background-color: #fff;
+}
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.my-container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*!
+ * Main style code
+ *
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media";
